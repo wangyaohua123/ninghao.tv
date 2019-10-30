@@ -1,0 +1,5 @@
+<view class="container">
+    <view>
+        <text>hello,您好</text>
+    </view>
+</view>

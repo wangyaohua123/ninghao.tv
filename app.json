@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "page/index/index",
+        "page/route/route",
+        "page/setup/setup"
+    ],
+"window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText":"首页",
+    "navigationBarTextStyle": "black"
+},
+"tabBar": {
+    "color": "#a6a6a6",
+    "selectedColor": "#027FD9",
+    "list": [
+     {
+      "text": "首页",
+      "pagePath": "page/index/index",
+      "iconPath": "image/icon/index.png",
+      "selectedIconPath": "image/icon/index-active.png"
+     },
+     {
+        "text": "路线",
+        "pagePath": "page/route/route",
+        "iconPath": "image/icon/route.png",
+        "selectedIconPath": "image/icon/route-active.png"
+       },
+       {
+        "text": "设置",
+        "pagePath": "page/setup/setup",
+        "iconPath": "image/icon/setup.png",
+        "selectedIconPath": "image/icon/setup-active.png"
+       }
+    ]
+}
+}
