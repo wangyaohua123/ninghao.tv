@@ -1,3 +1,30 @@
-<view>
-<text>route!</text>
+<view class="Route">
+    <view class="Headline">
+        <text>路线</text>
+    </view>
+    <view class="Route-search">
+        <text class="My-location">我的位置</text>
+        <text class="Line"></text>
+        <text class="End">你要去哪儿</text>
+    </view>
+    <view class="Search-history"> 
+        <!-- 搜索历史 -->
+       <view class="subtitle">
+         <text class="Search-text">搜索历史</text>
+       </view>
+       <view class="Search-list">
+           <view class="position-information">
+           <text class="position" decode="{{true}}">我的位置&nbsp;&nbsp;&nbsp;<text class="Target-station" decode="{{true}}">南玉丰&nbsp;（公交站）</text></text>
+       </view>
+       <view class="position-information">
+           <text class="position" decode="{{true}}">我的位置&nbsp;&nbsp;&nbsp;<text class="Target-station" decode="{{true}}">南玉丰&nbsp;（公交站）</text></text>
+       </view>
+       <view class="position-information">
+           <text class="position" decode="{{true}}">我的位置&nbsp;&nbsp;&nbsp;<text class="Target-station" decode="{{true}}">南玉丰&nbsp;（公交站）</text></text>
+       </view>
+       <view class="position-information">
+           <text class="position" decode="{{true}}">我的位置&nbsp;&nbsp;&nbsp;<text class="Target-station" decode="{{true}}">南玉丰&nbsp;（公交站）</text></text>
+       </view>
+       </view>
+    </view>
 </view>

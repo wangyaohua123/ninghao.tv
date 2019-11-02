@@ -1,5 +1,95 @@
-<view class="container">
-    <view>
-        <text>hello,您好</text>
+<!-- 顶部开头代码 -->
+<view class="view-container">
+    <view class="header">
+        <text>{{ greeting }}</text>
+    </view>
+    <view class="time">
+        <text class="date">{{ greet }}</text>
+        <text class="temperature">{{ headering }}</text>
     </view>
 </view>
+<!-- 搜索框 -->
+<view class="search">
+    <input value="" placeholder="搜索公交线路和站台" />
+</view>
+<!-- 小标题 -->
+<view class="subheading">
+    <view class="nearby">
+        <text>附近公交</text>
+    </view>
+    <view class="History">
+        <text>历史记录</text>
+    </view>
+    <view class="follow">
+        <text>我的关注</text>
+    </view>
+</view>
+<!-- 公交信息 -->
+<view class="bus-information">
+    <view class="bus-subtitle">
+        <text class="address">
+            北二环明光路立交<text class="Rice-number"> 320 m</text>
+        </text>
+    </view>
+    <!-- 路牌与站点信息 -->
+        <view class="Bus-stop-plate">
+            <view class="Arrival-list">
+            <view class="Bus">
+            <text class="Bus-number" decode="{{true}}">214&nbsp;<text class="Bus-characters">路</text></text>
+            <text decode="{{true}}" class="Eight">8&nbsp;<text class="branch">分钟</text></text>
+           </view>
+           <view class="Station-name">
+             <text class="Starting-point">长安大学渭水校区</text>   
+             <text class="End">火车站西</text>
+             <text class="Arrival-Time time" decode="{{true}}">5&nbsp;站&nbsp;\&nbsp;3.7&nbsp;km </text>
+                </view>
+                </view>
+                <view class="Arrival-list two">
+                <view class="Bus">
+            <text class="Bus-number" decode="{{true}}">264&nbsp;<text class="Bus-characters">路</text></text>
+            <text decode="{{true}}" class="Eight">8&nbsp;<text class="branch">分钟</text></text>
+            </view>
+            <view class="Station-name">
+             <text class="Starting-point">劳动路</text>   
+             <text class="End">火车北站</text>
+             <text class="Arrival-Time light" decode="{{true}}">5&nbsp;站&nbsp;\&nbsp;3.7&nbsp;km </text>
+                </view>
+                </view>
+                <view class="Arrival-list threen">
+                <view class="Bus">
+                <text class="Bus-number" decode="{{true}}">932&nbsp;<text class="Bus-characters">路</text></text>
+            <text decode="{{true}}" class="Eight">8&nbsp;<text class="branch">分钟</text></text>
+            </view>
+            <view class="Station-name">
+             <text class="Starting-point">陕西工程科技技校</text>   
+             <text class="End">大观园</text>
+             <text class="Arrival-Time have" decode="{{true}}">5&nbsp;站&nbsp;\&nbsp;3.7&nbsp;km </text>
+                </view>
+                </view>
+                <view class="Open">
+                    <text>展开更多</text>
+                </view>
+        </view>  
+</view>
+<!-- 公交信息二版 -->
+<view class="list">
+    <view class="subtitle"> 
+        <text class="info" decode="{{true}}">
+            范南村&nbsp;<text class="Rice" decode="{{true}}">407&nbsp;m</text>
+            </text>
+    </view>
+    <view class="Bus-view">
+    <view class="Second">
+        <text class="Bus-display" decode="{{true}}">207&nbsp;路</text>
+    </view>
+    <view class="Second">
+        <text class="Bus-display" decode="{{true}}">221&nbsp;路</text>
+    </view>
+    <view class="Second">
+        <text class="Bus-display" decode="{{true}}">235&nbsp;路</text>
+    </view>
+    <view class="Second">
+        <text class="Bus-display" decode="{{true}}">288&nbsp;路</text>
+    </view>
+    </view>
+    </view>

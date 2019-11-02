@@ -1,0 +1,202 @@
+.view-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+}
+.view-container view {
+  width: 90%;
+}
+/* hello,您好 */
+.header {
+  /* border: 1px solid red; */
+  font-size: 46rpx;
+}
+.header text{
+  padding: 0 0 0 20px;
+  font-family: microsoft yahei;
+}
+/* 10月4号，星期四 */
+.time {
+  /* border: 1px solid yellow; */
+  font-size: 24rpx;
+  width: 100vw;
+}
+.time .date {
+  padding: 0 0 0 80px;
+  color: #a2b1c4;
+  font-family: microsoft yahei;
+}
+/* 26 */
+.time .temperature {
+  padding: 0 0 0 135px;
+  color: #a2b1c4;
+  font-family: microsoft yahei;
+}
+
+.view-container text {
+  display: block;
+}
+.search {
+  /* border: 1px solid red; */
+ width: 90vw;
+ height: 30px;
+ background-color: #f6f6f6;
+ border-radius: 20px 20px 20px 20px;
+ margin: 10px 0 0 20px;
+ 
+}
+.search input {
+  padding: 5px 0 0 30px;
+}
+/* 小标题 */
+.subheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0 0 5px;
+}
+.nearby {
+  width: 90px;
+  height: 30px;
+  border: 1px solid #dbe1e6;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0 0 0 5px;
+  padding-top: 5px;
+}
+.nearby > text {
+  font-size: 34rpx;
+  color: #cad2dd;
+  padding: 0 0 0 15px;
+}
+.History {
+  width: 90px;
+  height: 30px;
+  /* border: 1px solid #dbe1e6; */
+  border-radius: 20px 20px 20px 20px;
+  padding-top: 5px;
+}
+.History text {
+  font-size: 34rpx;
+  color: #cad2dd;
+  padding: 0 0 0 15px;
+}
+.follow {
+  width: 90px;
+  height: 30px;
+  /* border: 1px solid #dbe1e6;s */
+  border-radius: 20px 20px 20px 20px;
+  padding-top: 5px;
+}
+.follow text {
+  font-size: 34rpx;
+  color: #cad2dd;
+  padding: 0 0 0 15px;
+}
+/* 公交信息 */
+.bus-information {
+  width: 90vw;
+  height: 250px;
+  border: 1px solid #dbe1e6;
+  border-radius: 20px 20px 20px 20px;
+  margin: 20px 0 0 20px;
+}
+.bus-subtitle {
+  padding: 0 0 0 30px;
+  margin-top: -10px;
+}
+.bus-subtitle .address {
+  color: #434f5d;
+  font-size: 34rpx;
+  font-family: microsoft yahei;
+}
+.bus-subtitle .address .Rice-number {
+  color: #a2b0c3;
+  font-size: 24rpx;
+}
+/* 路牌与站点信息 */
+.Bus-stop-plate {
+  padding: 10px 0 0 10px;
+  font-size: 34rpx;
+}
+.two{
+  margin: 10px 0 0 0;
+}
+.threen {
+  margin: 10px 0 0 0;
+}
+.Bus-number {
+  color: #434f5d;
+}
+.Bus-number .Bus-characters {
+  font-size: 24rpx;
+  color: #a2b1c4;
+}
+.Bus .Eight {
+  margin: 0 0 0 184px;
+  color: #445398;
+}
+.Bus .Eight .branch {
+  font-size: 24rpx;
+}
+.Station-name .Starting-point {
+  font-size: 26rpx;
+  color: #a2b1c4;
+}
+.Station-name .End {
+  font-size: 26rpx;
+  padding:  0 0 0 20px;
+  color: #fca68f;
+}
+.Station-name .Arrival-Time {
+  font-size: 24rpx;
+  padding: 0 0 0 40px;
+  color: #a2b1c4;
+}
+.Station-name .light {
+  margin: 0 0 0 46px;
+}
+.Station-name .time {
+  margin: 0 0 0 -18px;
+}
+.Station-name .have {
+  margin: 0 0 0 -8px;
+}
+.Open {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 0 0 0;
+  color: #434f5d;
+}
+.list {
+  width: 90vw;
+  height: 80px;
+  border: 1px solid #dbe1e6;
+  border-radius: 20px 20px 20px 20px;
+  margin: 20px 0 0 20px;
+}
+.list .subtitle {
+  margin: -10px 0 0 30px;
+}
+.list .subtitle .Rice {
+  color: #a2b0c3;
+  font-size: 24rpx;
+}
+.Bus-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Second {
+  width: 110rpx;
+  height: 44rpx;
+  border: 1px solid #a2b1c4;
+  border-radius: 15px 15px 15px 15px;
+  margin: 10px 0 0 0px;
+}
+.Second .Bus-display {
+  font-size: 26rpx;
+  color: #434f5d;
+  padding: 0 0 0 10px;
+}

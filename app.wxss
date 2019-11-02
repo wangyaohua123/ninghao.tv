@@ -1,0 +1,6 @@
+@import 'style/container.wxss';
+@import 'style/route.wxss';
+
+.container {
+    height: 100vh;
+}

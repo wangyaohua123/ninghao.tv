@@ -1,0 +1,43 @@
+.Route {
+    height: 100vh;
+    width: 100vw;
+}
+.Headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Headline text {
+    font-size: 46rpx;
+}
+.Route-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90vw;
+    height: 100px;
+    /* border: 1px solid #f6f6f6; */
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px 0 0 17px;
+    background-color: #f6f6f6;
+}
+.Route-search .My-location {
+    color: #81888f;
+    padding: 0 0 0 40px;
+}
+.Route-search .End {
+    color: #81888f;
+    padding: 0 0 0 40px;
+}
+.Line {
+    background: #b4b4b4;
+    width: 60vw;
+    height: 2rpx;
+    margin: 0 0 0 40px;
+}
+.subtitle {
+    margin: 20px 0 0 20px;
+}
+.subtitle .Search-list {
+    color: #a2b1c4;
+}
